@@ -1,0 +1,10 @@
+##############################科学上网#####################################
+1.chrom浏览器 for linux/windows
+
+<1>Linux 
+/* socks5代理 走v2ray的国外免费节点（服务器）*/
+google-chrome-stable --proxy-server="socks5://host:port"
+
+<2>windows
+chrom.exe /proxy-server=socks5://host:port
+
