@@ -1,0 +1,58 @@
+{
+  "policy": null,
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": null,
+      "port": 443,
+      "listen": null,
+      "protocol": "vmess",
+      "sniffing": null,
+      "settings": {
+        "auth": null,
+        "udp": false,
+        "ip": null,
+        "address": null,
+        "clients": [
+          {
+            "id": "fe795600-c0d2-4e61-ba43-cf27676bed18",
+            "alterId": 233,
+            "email": "t@t.tt",
+            "security": null
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "v2-14.ssrsub.xyz"
+        },
+        "tcpSettings": null,
+        "kcpSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "v2-14.ssrsub.xyz"
+          }
+        },
+        "httpSettings": null,
+        "quicSettings": null
+      }
+    }
+  ],
+  "outbounds": null,
+  "stats": null,
+  "api": null,
+  "dns": null,
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": []
+  }
+}
